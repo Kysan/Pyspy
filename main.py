@@ -149,6 +149,7 @@ class TestBot(irc.bot.SingleServerIRCBot):
                     print(file)
                     link = post_img(file)
                     c.notice(nick, "uploaded on: "+str(link))
+                    os.system("del "+file)
                 except:
                     c.notice(nick, "error")
 
@@ -156,8 +157,9 @@ class TestBot(irc.bot.SingleServerIRCBot):
                 try:
                     file = screenshot()
                     print(file)
-                    link = post_img(file)
+                    link = post_img(file) 
                     c.notice(nick, "uploaded on: "+str(link))
+                    os.system("del "+file)
                 except:
                     c.notice(nick, "error")
 
