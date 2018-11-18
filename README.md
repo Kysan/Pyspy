@@ -2,6 +2,6 @@
 
 pour windows seulement
 
-pour avoir tout les modules requis faire "pip install -r requirements.txt"
+pour avoir tout les modules requis faire "pip3 install -r requirements.txt"
 
 Kysan
