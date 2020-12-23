@@ -1,6 +1,0 @@
-irc
-numpy
-opencv-python
-pyautogui
-requests
-wmi

@@ -1,7 +1,5 @@
-# python irc bot
+# PYSPY
 
-pour windows seulement
+### En developpement
 
-pour avoir tout les modules requis faire "pip3 install -r requirements.txt"
-
-Kysan
+`start.bat` pour tester le client
