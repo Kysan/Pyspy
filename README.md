@@ -2,14 +2,14 @@
 
 ### /!\ DISCLAIMER /!\
 
-/!\ Vous êtes vous même résponsable de ce que vous faites avec cet outil (personne d'autres) /!\
+/!\ En utilisant ce logiciel vous vous déclarez comme vous même responsable de ce que vous faites avec /!\
 
 ### En developpement
 
 `pip install -r requirement.txt`</br>
 `start.bat` pour tester le client (windows uniquement)
 
-### fonctionnalité à ajouter:
+### Fonctionnalité à ajouter:
 
 ~~-pouvoir récupérer un screenshot de l'écran~~ou un gif</br>
 -pouvoir récupérer l'ip</br> -~~pouvoir récupérer une photo de la cam~~ ou un gif</br>
@@ -23,7 +23,7 @@
 -commande help</br>
 -réponse dans des embeds</br>
 
-### utilisation:
+### Utilisation:
 
 `/screenshot` -> prend un screenshot de l'écran</br>
 `/cam x` ou `/pic x`-> prend une photo avec la webcam n°`x` 0 si x non spécifié
