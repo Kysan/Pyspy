@@ -1,5 +1,5 @@
 import cv2
-from .strings import .randomString
+from .strings import randomString
 
 
 # TODO
@@ -8,7 +8,7 @@ def listWebcam():
 
 
 def takePicture(camID=0):
-    # il peut y avoir plusieurs cam
+    # *il peut y avoir plusieurs cam
 
     cam = cv2.VideoCapture(camID)
     # * accomodation à la luminosité ambiante

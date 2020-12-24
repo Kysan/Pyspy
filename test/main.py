@@ -5,6 +5,7 @@ import sys
 if __name__ == '__main__':
 
     # * pour importer en passant par le dossier parent
+
     sys.path[0] += ("\\..\\")
     from src.Bot import Bot
 
