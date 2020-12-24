@@ -30,4 +30,4 @@
 
 ### Mon discord
 
-Pour m'aider ou autre rejoignez le [Simposium](https://discord.gg/24zCCyXwb)
+Pour m'aider ou autre rejoignez le [Simposium](https://discord.gg/HJecskNG5d)
