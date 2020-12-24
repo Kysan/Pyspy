@@ -1,22 +1,26 @@
 # PYSPY
 
+### /!\ DISCLAIMER /!\
+
+/!\ Vous êtes vous même résponsable de ce que vous faites avec cet outil (personne d'autres) /!\
+
 ### En developpement
 
 `pip install -r requirement.txt`</br>
 `start.bat` pour tester le client (windows uniquement)
 
-### TODO
+### fonctionnalité à ajouter:
 
-~~-ajouter une fonction pour récupérer une screenshot de l'écran~~</br>
--ajouter un fonction pour récupérer l'ip</br>
--ajouter une fonction pour récupérer une photo ou un gif de la cam</br>
--ajouter une fonction pour naviger dans les fichiers</br>
--ajouter une fonction pour télécharger un fichier donné</br>
--ajouter une fonction pour accéer au cmd</br>
--ajouter une fonction pour executer un fichier</br>
--verifié les permissions lors de l'invitation du bot pour faire en sorte que si quelqu'un retourve le token il ne puisse pas voir les messages dans le serveur</br>
--ajouter un script de transformation automatique du bot en .exe avec juste une commande</br>
--automatiser la génération du bot du token</br>
+~~-pouvoir récupérer un screenshot de l'écran~~</br>
+-pouvoir récupérer l'ip</br>
+-pouvoir récupérer une photo ou un gif de la cam</br>
+-pouvoir naviger dans les fichiers et les télécharger supprimer ou modifier</br>
+-ajouter une fonction pour pouvoir accéder au cmd (session ou on garde le pipe)</br>
+-RCE</br>
+-automatique du bot en .exe par un script simple</br>
+-automatiser la génération du token du bot que l'on vas associé au malware généré</br>
+-rendre le programme persitent</br>
+-ajouter une fonction pour récupérer les cookies et les mdp du navigateur
 
 ### Mon discord
 
