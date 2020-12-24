@@ -9,7 +9,7 @@
 `pip install -r requirement.txt`</br>
 `start.bat` pour tester le client (windows uniquement)
 
-### Fonctionnalité à ajouter:
+### Fonctionnalités à ajouter:
 
 ~~-pouvoir récupérer un screenshot de l'écran~~ou un gif</br>
 -pouvoir récupérer l'ip</br> -~~pouvoir récupérer une photo de la cam~~ ou un gif</br>
