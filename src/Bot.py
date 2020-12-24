@@ -1,6 +1,6 @@
+from .Utils import screenshot, fileHandler
 import discord
 from .config import config
-from .utils import takeScreenshot
 
 
 class Bot(discord.Client):
@@ -12,9 +12,12 @@ class Bot(discord.Client):
         if message.author.id != config['master_id'] or not message.content.startswith(config['prefix']):
             return
 
-        command = message.content[1:]
-        await message.channel.send(command)
+        command = message.content[len(config['prefix']):]
+
         if command == 'screenshot':
-            file_path = takeScreenshot()
-            with open(file_path, 'br') as file:
-                await message.channel.send(file=file_path)
+            workingMsg = await message.channel.send("Executing...")
+            fileName = screenshot.takeScreenshot()
+            with open(fileName, 'br') as f:
+                await message.channel.send(file=discord.File(f, fileName))
+            fileHandler.deleteFile(fileName)
+            await workingMsg.delete()

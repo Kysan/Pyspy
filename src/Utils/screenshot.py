@@ -2,7 +2,7 @@ import pyautogui
 from .strings import randomString
 
 
-def makeScreenshot():
+def takeScreenshot():
     image = pyautogui.screenshot()
     image_path = randomString()+".png"
     image.save(image_path)
