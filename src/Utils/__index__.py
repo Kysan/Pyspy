@@ -1,4 +1,7 @@
+__author__ = 'Kysan'
+
+from .screenshot import *
+from .strings import *
 
 
-from .screenshot import takeScreenshot
-from .strings import randomString
+print('test')

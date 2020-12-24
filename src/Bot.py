@@ -1,6 +1,6 @@
 import discord
 from .config import config
-from .Utils import takeScreenshot
+from .utils import takeScreenshot
 
 
 class Bot(discord.Client):
